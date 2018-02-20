@@ -1,21 +1,29 @@
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 440px) {
   body {
     font-size: 1em;
-    line-height: 1.2em;
     font-family: Arial;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3, h4 {
+    font-size: 16px;
   }
 }
 
 body {
   background: #424242;
-  color: #ffff00;
+  color: #ccff00;
   font-family: 'Architects Daughter', cursive;
   font-size: 16px;
+  line-height: 1.2em;
 }
-
-/* {
-    border: 1px solid red !important;
-}*/
 
 * {
     -webkit-box-sizing: border-box;
